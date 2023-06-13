@@ -16,11 +16,11 @@ import FacadeXample.CarComponents.Starter;
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
 public class CarEngineFacade implements Interromper{
-    private AirFlowControler airFlowControler;
-    private CoolingControler cooling;
-    private FuelInjector injector;
-    private CatalyticConverter catalytic;
-    private Starter starter;
+    private final AirFlowControler airFlowControler;
+    private final CoolingControler cooling;
+    private final FuelInjector injector;
+    private final CatalyticConverter catalytic;
+    private final Starter starter;
 
     public CarEngineFacade() {
         airFlowControler = new AirFlowControler();

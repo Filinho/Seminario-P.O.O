@@ -8,7 +8,7 @@ package FacadeXample.CarComponents;
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public class CoolingControler implements Interromper{
+public class CoolingControler implements Switch{
 
 
     private Radiator radiator;

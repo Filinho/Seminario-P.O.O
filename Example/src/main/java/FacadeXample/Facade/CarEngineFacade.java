@@ -8,14 +8,14 @@ import FacadeXample.CarComponents.AirFlowControler;
 import FacadeXample.CarComponents.CatalyticConverter;
 import FacadeXample.CarComponents.CoolingControler;
 import FacadeXample.CarComponents.FuelInjector;
-import FacadeXample.CarComponents.Interromper;
 import FacadeXample.CarComponents.Starter;
+import FacadeXample.CarComponents.Switch;
 
 /**
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public class CarEngineFacade implements Interromper{
+public class CarEngineFacade implements Switch{
     private final AirFlowControler airFlowControler;
     private final CoolingControler cooling;
     private final FuelInjector injector;

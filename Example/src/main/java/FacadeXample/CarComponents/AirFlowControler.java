@@ -8,7 +8,7 @@ package FacadeXample.CarComponents;
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public final class AirFlowControler  implements Interromper {
+public final class AirFlowControler  implements Switch {
     AirFlowMeter meter;
     
     public AirFlowControler() {

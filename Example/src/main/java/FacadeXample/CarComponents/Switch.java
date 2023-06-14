@@ -8,7 +8,7 @@ package FacadeXample.CarComponents;
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public interface Interromper {
+public interface Switch {
 
     public void on();
 

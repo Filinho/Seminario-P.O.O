@@ -8,7 +8,7 @@ package FacadeXample.CarComponents;
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public class FuelInjector implements Interromper{
+public class FuelInjector implements Switch{
     FuelPump fuelPump;
     public FuelInjector(){
         fuelPump = new FuelPump();

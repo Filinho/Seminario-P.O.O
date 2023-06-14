@@ -8,7 +8,7 @@ package FacadeXample.CarComponents;
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public class CatalyticConverter implements Interromper {
+public class CatalyticConverter implements Switch {
 
     public CatalyticConverter() {
     }

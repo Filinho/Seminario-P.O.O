@@ -10,7 +10,7 @@ import java.util.Random;
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public class Radiator implements Interromper{
+public class Radiator implements Switch{
    private int speed;
     
     public Radiator(){
@@ -19,7 +19,7 @@ public class Radiator implements Interromper{
 
     public void setSpeed(int speed) {
         this.speed = speed;
-        System.out.println("Radiator Speed set to" + speed +"%");
+        System.out.println("Radiator Speed set to " + speed +"%");
     }
     
     

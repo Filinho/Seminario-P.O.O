@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package FacadeXample;
+package Xample;
 
 import FacadeXample.Facade.CarEngineFacade;
 
@@ -10,7 +10,7 @@ import FacadeXample.Facade.CarEngineFacade;
  *
  * @author Ivanderlei Filho &lt;imsf@aluno.ifnmg.edu.br&gt;
  */
-public class FacadeXample {
+public class Xample {
 
     public static void main(String[] args) {
         CarEngineFacade subaru = new CarEngineFacade();

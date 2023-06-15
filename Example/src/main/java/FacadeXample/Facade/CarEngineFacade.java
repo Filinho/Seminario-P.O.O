@@ -4,12 +4,12 @@
  */
 package FacadeXample.Facade;
 
-import FacadeXample.CarComponents.AirFlowControler;
-import FacadeXample.CarComponents.CatalyticConverter;
-import FacadeXample.CarComponents.CoolingControler;
-import FacadeXample.CarComponents.FuelInjector;
-import FacadeXample.CarComponents.Starter;
-import FacadeXample.CarComponents.Switch;
+import Xample.CarComponents.AirFlowControler;
+import Xample.CarComponents.CatalyticConverter;
+import Xample.CarComponents.CoolingControler;
+import Xample.CarComponents.FuelInjector;
+import Xample.CarComponents.Starter;
+import Xample.CarComponents.Switch;
 
 /**
  *
